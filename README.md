@@ -35,3 +35,19 @@ This project attempts to replicate the single cell RNA sequencing analysis done 
   - Implemented different classifiers to distinguish cells from spleen or blood tissue.
   - Evaluated classifier performance and selected the most effective models based on accuracy and computational efficiency.
 
+# Repository Setup and Data Preparation
+
+Due to the large size of the `.ipynb` files, it is recommended to clone the repository for optimal viewing and execution. Additionally, the data files located in the `data/` and `data/pooled_data` directories need to be unzipped to ensure the notebooks run without errors.
+
+## Steps to Set Up the Repository
+
+1. **Clone the Repository:**
+   ```sh
+   git clone <repository-url>
+
+2. **Unzip data files**
+   Navigate to the `data/` directory and unzip the `data.zip` file.
+   Navigate to the `data/pooled_data/` directory and unzip the necessary files.
+
+If you wish to run the `pooling_samples.ipynb` script specifically, it is sufficient to unzip only the `data.zip` file within the `data/` directory.
+
