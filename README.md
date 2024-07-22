@@ -43,7 +43,7 @@ Due to the large size of the `.ipynb` files, it is recommended to clone the repo
 
 1. **Clone the Repository:**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/eleni-pan/scNKcells
 
 2. **Unzip data files**
    Navigate to the `data/` directory and unzip the `data.zip` file.
