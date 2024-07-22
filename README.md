@@ -37,7 +37,7 @@ This project attempts to replicate the single cell RNA sequencing analysis done 
 
 # Repository Setup and Data Preparation
 
-Due to the large size of the `.ipynb` files, it is recommended to clone the repository for optimal viewing and execution. Additionally, the data files located in the `data/` and `data/pooled_data` directories need to be unzipped to ensure the notebooks run without errors.
+Due to the large size of the `.ipynb` files, it is recommended to clone the repository for viewing and execution. Additionally, the data files located in the `data/` and `data/pooled_data` directories need to be unzipped to ensure the notebooks run without errors.
 
 ## Steps to Set Up the Repository
 
