@@ -1,6 +1,6 @@
 # Analysis Workflow and Methodology
 
-To align with the original authors' methods, we conducted a comprehensive inspection of parameter grids for both t-SNE and UMAP. Since the authors did not provide code or parameter references for t-SNE, we performed the following steps across several Jupyter notebooks to replicate and extend their analysis for murine samples:
+This project attempts to replicate the single cell RNA sequencing analysis done by Crinier et al. in the paper High-Dimensional Single-Cell Analysis Identifies Organ-Specific Signatures and Conserved NK Cell Subsets in Humans and Mice. 
 
 ## Data Pooling
 
@@ -18,7 +18,7 @@ To align with the original authors' methods, we conducted a comprehensive inspec
 ## Individual Sample Analysis
 
 - **spleen_individual_inspection.ipynb** / **blood_individual_inspection.ipynb**:
-  - Analyzed each individual mouse spleen and blood donor separately.
+  - Analyzed each individual spleen and blood mouse donor separately.
   - Explored the effects of different t-SNE and UMAP parameters on data embedding and visualization.
 
 ## Pooled Sample Analysis
@@ -27,8 +27,8 @@ To align with the original authors' methods, we conducted a comprehensive inspec
   - Focused on pooled spleen and blood samples.
   - Determined optimal t-SNE and UMAP parameters for effective visualization.
   - Applied clustering algorithms (k-means, Gaussian Mixture Model (GMM), and hierarchical clustering) to identify clusters and compare with the number reported by the authors.
-  - Investigated driving genes of each cluster for comparison with the authors' results, noting that the absence of provided cluster labels limited direct biological validation.
-
+ 
+  
 ## Machine Learning Classification
 
 - **machine_learning_pipeline.ipynb**:
